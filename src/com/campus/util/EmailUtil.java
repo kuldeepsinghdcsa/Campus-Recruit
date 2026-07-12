@@ -6,14 +6,11 @@ import java.util.Properties;
 
 public class EmailUtil {
 
-    // ----------------------------------------------------------------
-    // Configure your SMTP settings here
-    // For Gmail: enable "App Passwords" and use it as SMTP_PASSWORD
-    // ----------------------------------------------------------------
+   
     private static final String SMTP_HOST     = "smtp.gmail.com";
     private static final int    SMTP_PORT     = 587;
-    private static final String SMTP_EMAIL    = "kuldeep.dcsaplacement@gmail.com";   // my google account
-    private static final String SMTP_PASSWORD = "uahn keuu adcd kjdy";      // this is my google account app password
+    private static final String SMTP_EMAIL    = "abcd@gmail.com";   // my google account
+    private static final String SMTP_PASSWORD = "your app password";      // this is my google account app password
     private static final String FROM_NAME     = "Campus Recruitment Cell";
 
     public static boolean sendEmail(String toEmail, String subject, String htmlBody) {
