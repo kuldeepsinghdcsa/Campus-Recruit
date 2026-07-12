@@ -8,8 +8,8 @@ public class DBConnection {
 
     private static final String DRIVER   = "com.mysql.cj.jdbc.Driver";
     private static final String URL      = "jdbc:mysql://localhost:3306/campus_recruitment?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "Haryana@123"; // *** Change to your MySQL password ***
+    private static final String USERNAME = "username";
+    private static final String PASSWORD = "************"; // *** Change to your MySQL password ***
 
     private static boolean driverLoaded = false;
     private static String  driverError  = null;
